@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section {
+    height: 100vh;
+    background-color: rgb(230, 205, 205);
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 100px 0px 100px;
+}
+
+.banner-title {
+    font-size: 70px;
+}
+
+.banner-description {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#banner-img {
+    width: 450px;
+    padding-bottom: 0;
+}
