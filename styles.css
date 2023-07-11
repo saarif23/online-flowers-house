@@ -7,10 +7,12 @@
     height: 100vh;
     background-color: rgb(230, 205, 205);
     display: flex;
-    gap: 50px;
+    gap: 500px;
     align-items: center;
-    padding: 40px 100px 0 100px;
- 
+    justify-content: center;
+    /* padding: 40px 100px 0 100px; */
+    position: relative;
+
 }
 
 .banner-title {
@@ -20,6 +22,7 @@
 .banner-description {
     padding: 20px;
     padding-left: 0;
+    width: 500px;
 }
 
 .btn-primary {
@@ -31,32 +34,39 @@
 }
 
 #banner-img {
-    width: 510px;
-   
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
 }
 
 
 
 
-.flowers-section{
+.flowers-section {
     height: 100vh;
     /* border: 2px solid black; */
     margin: 100px;
 }
-.flowers-info{
+
+.flowers-info {
     text-align: center;
     margin-top: 70px;
 }
-.flowers-section-title{
+
+.flowers-section-title {
     font-size: 40px;
     padding: 20px;
 }
-.flowers-section-description{
+
+.flowers-section-description {
     font-size: 18px;
     padding-bottom: 50px;
-   
+
 }
-.box{
+
+.box {
     width: 300px;
     height: 380px;
     /* border: 2px solid tomato; */
@@ -64,39 +74,59 @@
     background-color: #A7216226;
     border-radius: 200px 200px 0 0;
 }
-.box-2{
+
+.box-2 {
     background-color: #0597A026;
+    
 }
-.box-3{
+
+.box-3 {
     background-color: #477D1126;
 }
-.box-icon{
+
+.box-icon {
     width: 220px;
     position: absolute;
     bottom: 0px;
     padding-left: 15%;
 }
-.flower-box{
+.box-icon-2{
+    padding-bottom: 60px;
+}
+
+.flower-box {
     display: flex;
     justify-content: center;
     gap: 20px;
+    
 }
-.support-section{
+.flower-name-container{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 20px;
+    text-decoration: underline;
+    
+}
+
+.support-section {
     /* width: 300px; */
     height: 200px;
-    margin: 10px 220px 20px 220px ;
+    margin: 100px 158px 20px 158px;
     background-color: #2727270D;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    
+    gap: 60px;
+
 }
-.delivery-section{
+
+.delivery-section {
     text-align: center;
 }
+
 /* offer section */
-.offer-section{
+.offer-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,68 +135,95 @@
     background-color: #E554730D;
     gap: 50px;
 }
-.offer-details{
+
+.offer-details {
     text-align: center;
 }
-#offer-title{
-font-size: 35px;
-padding: 10px;
-}
-#offer-description{
+
+#offer-title {
+    font-size: 35px;
     padding: 10px;
 }
-.instagram-section{
+
+#offer-description {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.instagram-section {
     text-align: center;
 }
-#show-img{
+
+#show-img {
     width: 250px;
-    margin: 40px 5px ;
+    margin: 40px 5px;
 
 }
-.instagram-title{
+
+.instagram-title {
     font-size: 35px;
     padding: 10px;
     margin-top: 50px;
 }
-.instagram-description{
-    padding: 10px;
 
+.instagram-description {
+    padding: 10px;
 }
 
-  
 
-#deals-title{
+
+#deals-title {
     font-size: 35px;
     padding: 10px;
 }
-#cupon-price{
+
+#cupon-price {
     padding: 10px;
 }
-#input{
+
+#input {
     padding: 15px 10px;
     width: 500px;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
 }
-.deals-section{
-   height: 280px;
-   text-align: center;
+
+.deals-section {
+    height: 280px;
+    text-align: center;
     background-image: url(./Rectangle\ 9.png);
     background-position: center;
     background-size: cover;
-    margin: 50px 100px;
+    margin:  100px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 10px;
+
 }
-.footer-section{
-    height: 250px;
+
+.footer-section {
+    height: 280px;
     background-color: black;
     color: white;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+
+#footer-title {
+    padding: 10px;
+
+}
+
+.color {
+    color: #E55473;
+}
+
+.footer-description {
+    padding: 10px 10px 40px;
 }
