@@ -132,3 +132,41 @@ padding: 10px;
     padding: 10px;
 
 }
+
+  
+
+#deals-title{
+    font-size: 35px;
+    padding: 10px;
+}
+#cupon-price{
+    padding: 10px;
+}
+#input{
+    padding: 15px 10px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.deals-section{
+   height: 280px;
+   text-align: center;
+    background-image: url(./Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-section{
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
