@@ -85,7 +85,7 @@
     /* width: 300px; */
     height: 200px;
     margin: 10px 220px 20px 220px ;
-    background-color: aqua;
+    background-color: #2727270D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +100,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 70px;
     margin-top: 100px;
-    background-color: aquamarine;
+    background-color: #E554730D;
     gap: 50px;
 }
 .offer-details{
@@ -111,4 +111,24 @@
 #offer-title{
 font-size: 35px;
 padding: 10px;
+}
+#offer-description{
+    padding: 10px;
+}
+.instagram-section{
+    text-align: center;
+}
+#show-img{
+    width: 250px;
+    margin: 40px 5px ;
+
+}
+.instagram-title{
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.instagram-description{
+    padding: 10px;
+
 }
