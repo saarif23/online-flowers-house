@@ -12,7 +12,6 @@
     justify-content: center;
     /* padding: 40px 100px 0 100px; */
     position: relative;
-
 }
 
 .banner-title {
@@ -45,10 +44,7 @@
     position: absolute;
     bottom: 0;
     right: 100px;
-
 }
-
-
 
 
 .flowers-section {
@@ -65,12 +61,12 @@
 .flowers-section-title {
     font-size: 40px;
     padding: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flowers-section-description {
     font-size: 18px;
     padding-bottom: 50px;
-
 }
 
 .box {
@@ -84,7 +80,6 @@
 
 .box-2 {
     background-color: #0597A026;
-
 }
 
 .box-3 {
@@ -106,7 +101,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 .flower-name-container {
@@ -128,7 +122,6 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-
 }
 
 .delivery-section {
@@ -153,6 +146,7 @@
 #offer-title {
     font-size: 35px;
     padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #offer-description {
@@ -167,24 +161,23 @@
 #show-img {
     width: 250px;
     margin: 40px 5px;
-
 }
 
 .instagram-title {
     font-size: 35px;
     padding: 10px;
     margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .instagram-description {
     padding: 10px;
 }
 
-
-
 #deals-title {
     font-size: 35px;
     padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #cupon-price {
@@ -211,7 +204,99 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
 
+.birthday-card {
+    height: 100vh;
+    /* background-color: rgb(251, 237, 237); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+}
+
+.card-img {
+    border: 1px solid tomato;
+    margin: 50px;
+    border-radius: 5px;
+    background-color: #f1dfe3;
+}
+
+.card-title {
+    color: blue;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-color {
+    color: rgb(9, 215, 9);
+    padding: 10px 0px 20px 10px;
+    font-weight: bold;
+}
+
+.taka {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price {
+    padding: 5px;
+}
+
+.add {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#sku {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.add-card {
+    padding: 7px 25px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    background-color: rgb(9, 245, 9);
+    margin: 5px;
+    cursor: pointer;
+}
+
+.add-card:hover {
+    background-color: white;
+}
+
+#media-icon {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sold-by {
+    height: 200px;
+    width: 300px;
+    border: 1px solid rgb(235, 218, 215);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fbf7f8;
+    padding: 10px;
+}
+
+.last-btn {
+    padding: 5px 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(34, 255, 0);
+}
+
+.bold {
+    color: rgb(4, 177, 4);
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
 }
 
 .footer-section {
@@ -222,12 +307,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #footer-title {
     padding: 10px;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .color {
