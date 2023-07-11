@@ -31,6 +31,13 @@
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    /* color: blue; */
+    background-color: blue;
+    color: #E55473;
 }
 
 #banner-img {
@@ -77,7 +84,7 @@
 
 .box-2 {
     background-color: #0597A026;
-    
+
 }
 
 .box-3 {
@@ -90,7 +97,8 @@
     bottom: 0px;
     padding-left: 15%;
 }
-.box-icon-2{
+
+.box-icon-2 {
     padding-bottom: 60px;
 }
 
@@ -98,16 +106,18 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+
 }
-.flower-name-container{
+
+.flower-name-container {
     display: flex;
     justify-content: center;
     gap: 200px;
     margin: 20px;
     text-decoration: underline;
-    
+    cursor: pointer;
 }
+
 
 .support-section {
     /* width: 300px; */
@@ -195,7 +205,7 @@
     background-image: url(./Rectangle\ 9.png);
     background-position: center;
     background-size: cover;
-    margin:  100px;
+    margin: 100px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
@@ -212,7 +222,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 #footer-title {
