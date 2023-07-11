@@ -9,7 +9,8 @@
     display: flex;
     gap: 50px;
     align-items: center;
-    padding: 20px 100px 0px 100px;
+    padding: 40px 100px 0 100px;
+ 
 }
 
 .banner-title {
@@ -30,6 +31,84 @@
 }
 
 #banner-img {
-    width: 450px;
-    padding-bottom: 0;
+    width: 510px;
+   
+}
+
+
+
+
+.flowers-section{
+    height: 100vh;
+    /* border: 2px solid black; */
+    margin: 100px;
+}
+.flowers-info{
+    text-align: center;
+    margin-top: 70px;
+}
+.flowers-section-title{
+    font-size: 40px;
+    padding: 20px;
+}
+.flowers-section-description{
+    font-size: 18px;
+    padding-bottom: 50px;
+   
+}
+.box{
+    width: 300px;
+    height: 380px;
+    /* border: 2px solid tomato; */
+    position: relative;
+    background-color: #A7216226;
+    border-radius: 200px 200px 0 0;
+}
+.box-2{
+    background-color: #0597A026;
+}
+.box-3{
+    background-color: #477D1126;
+}
+.box-icon{
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 15%;
+}
+.flower-box{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.support-section{
+    /* width: 300px; */
+    height: 200px;
+    margin: 10px 220px 20px 220px ;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.delivery-section{
+    text-align: center;
+}
+/* offer section */
+.offer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: aquamarine;
+    gap: 50px;
+}
+.offer-details{
+    text-align: center;
+}
+#offer-title{
+font-size: 35px;
+padding: 10px;
 }
